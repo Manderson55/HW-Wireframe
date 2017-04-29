@@ -1,0 +1,48 @@
+/* trying to center the container on the page */
+
+body {
+	margin: 0 auto;
+	padding: 0;
+	background-color: white;
+}
+
+
+div.containerHeader {
+	width: 80%;
+	position: absolute;
+	margin: 0 auto;
+	align-content: center;
+	background-color: grey;
+	padding-bottom: 2em;
+
+}
+
+div.containerNav {
+	width: 80%;
+	position: absolute;
+	margin: 0 auto;
+	align-content: center;
+	background-color: grey;
+	padding-bottom: 2em;
+}
+header, footer, nav {
+	padding: 1em;
+	color: white;
+	text-align: center;
+}
+
+
+.containerSection {
+	float: left;
+	background-color: grey;
+	padding: 15px;
+	text-decoration-color: white; 
+
+}
+
+.container.Aside {
+	float: right;
+	background-color: grey;
+	padding: 15px;
+	
+}
